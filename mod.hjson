@@ -23,3 +23,7 @@ minGameVersion: 146
 java: true
 
 hidden: true
+
+dependencies: [
+  bl-ui-lib
+]
