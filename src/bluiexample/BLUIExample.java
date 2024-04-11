@@ -22,6 +22,5 @@ public class BLUIExample extends Mod{
                 t.button(Icon.distribution, BLVars.buttonSize, () -> {});
             });
         });
-        BLSetup.init();
     }
 }
