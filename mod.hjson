@@ -1,23 +1,25 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "BLUI Example"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "blui-example"
 
 #your name
-author: "You"
+author: "MEEPofFaith"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "bluiexample.BLUIExample"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "Bottom Left UI Lib example."
 
 #the mod version
-version: 1.0
+version: 1
 
 #the minimum game build required to run this mod
-minGameVersion: 145
+minGameVersion: 146
 
 #this is a java mod
 java: true
+
+hidden: true
