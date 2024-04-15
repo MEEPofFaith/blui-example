@@ -12,6 +12,7 @@ public class BLUIExample extends Mod{
 
     @Override
     public void init(){
+        //A bunch of buttons. Always available.
         BLSetup.addTable(table -> {
             table.table(Tex.buttonEdge3, t -> {
                 t.button(Icon.file, BLVars.buttonSize, () -> {});
@@ -23,6 +24,7 @@ public class BLUIExample extends Mod{
             });
         });
 
+        //Another bunch of buttons. Only visible in sandbox.
         BLSetup.addTable(table -> {
             table.table(Tex.pane, t -> {
                 t.button(Icon.distribution, BLVars.buttonSize, () -> {});
