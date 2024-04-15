@@ -2,11 +2,11 @@ package bluiexample;
 
 import blui.*;
 import blui.ui.*;
+import mindustry.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
 
 public class BLUIExample extends Mod{
-
     public BLUIExample(){
     }
 
@@ -22,5 +22,14 @@ public class BLUIExample extends Mod{
                 t.button(Icon.distribution, BLVars.buttonSize, () -> {});
             });
         });
+
+        BLSetup.addTable(table -> {
+            table.table(Tex.pane, t -> {
+                t.button(Icon.distribution, BLVars.buttonSize, () -> {});
+                t.button(Icon.liquid, BLVars.buttonSize, () -> {});
+                t.button(Icon.power, BLVars.buttonSize, () -> {});
+                t.button(Icon.effect, BLVars.buttonSize, () -> {});
+            });
+        }, () -> Vars.state.rules.infiniteResources);
     }
 }
