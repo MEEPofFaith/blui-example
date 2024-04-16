@@ -23,6 +23,7 @@ minGameVersion: 146
 java: true
 
 hidden: true
+hideBrowoser: true
 
 dependencies: [
   bl-ui-lib
