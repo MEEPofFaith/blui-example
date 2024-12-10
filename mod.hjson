@@ -14,7 +14,7 @@ main: "bluiexample.BLUIExample"
 description: "Bottom Left UI Lib example."
 
 #the mod version
-version: 1
+version: 2
 
 #the minimum game build required to run this mod
 minGameVersion: 146
@@ -24,7 +24,3 @@ java: true
 
 hidden: true
 hideBrowoser: true
-
-dependencies: [
-  bl-ui-lib
-]
